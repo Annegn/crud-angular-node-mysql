@@ -16,17 +16,17 @@
 5. Git: https://git-scm.com/downloads
 
 Confirm all the required tools are installed correctly
-node -v
-npm -v
-express --version
-bower -v
-mysql --version
-git --version
+1. node -v
+2. npm -v
+3. express --version
+4. bower -v
+5. mysql --version
+6. git --version
 
 ## Creating app-name using express
 	express app-name
 
-# Install required bower and npm packages with --save (to add into package.json)
+## Install required bower and npm packages with --save (to add into package.json)
 	cd app-name
 
 	npm install
@@ -44,17 +44,17 @@ git --version
 	bower install angular --save
 	bower install bootstrap --save
 
-# Create Database
-	see this: backup/database/database-schema.md
+## Create Database
+	see this: database/database-schema.md
 
-# Modify app.js (completely) - see this: backup/info-app.js.md
+## Modify app.js (completely)
 app.set('view engine', 'ejs');
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 
 index.ejs
 <% include layout %>
 
-# Other files that you need to copy
+## Other files that you need to copy
 - public
 	- javascripts (folder)
 		- app
@@ -71,8 +71,9 @@ index.ejs
 		- domainDao.js //sql queries
 	- mysqlConnectionString.js //database connection credentials
 	- mysqlConnectionStringProvider.js //getMysqlConnection, closeMysqlConnection
--views (folder) //template
+- views (folder) //template
+- app.js
 
-Other References:
+## Other References:
 	<p ng-bind="date | date:'MM/dd/yyyy'"></p>
 http://stackoverflow.com/questions/22392328/how-to-format-date-in-angularjs
