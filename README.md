@@ -1,10 +1,3 @@
-This document info-kazi-app.md is created by Nikesh Ulak
-Based on Angular Js
-D:\nike\resources\nodejs\kazi-app\backup\info-kazi-app.md
-
-# Reference TutorialOnNodeJs
-D:\VisualStudio2015\projects\TutorialOnNodeJs\TutorialOnNodeJs
-
 # CRUD using Angular JS, Node JS, Mysql
 
 ## Inspiration
